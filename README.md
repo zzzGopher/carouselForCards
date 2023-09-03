@@ -1,4 +1,4 @@
 # carouselForCards
 Created with CodeSandbox
 
-#quick mockup for small card carousel
+# quick mockup for small card carousel
