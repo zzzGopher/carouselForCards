@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  height: auto;
+  overflow-x: scroll;
+  transition: all ease-out 1s;
+  margin-inline: auto;
+}
+
+.one {
+  background-color: tomato;
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+}
+.two {
+  background-color: red;
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
+.three {
+  background-color: darkred;
+  flex: 0 0 100%;
+  height: 100px;
+  scroll-snap-align: end;
+}
+
+.j {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.1s;
+}
